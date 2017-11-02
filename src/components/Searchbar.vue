@@ -12,11 +12,11 @@
       @blur="handleBlur"
       @input="handleInput"
     >
-    <transition name="icon">
-      <div class="iconContainer" v-if="!isFocus && isEmpty">
-        <i class="icon material-icons" >search</i>
-      </div>
-    </transition>
+    <div class="iconContainer">
+      <transition name="icon">
+        <i class="icon material-icons" v-if="!isFocus && isEmpty">search</i>
+      </transition>
+    </div>
     <transition name="helpText">
         <p class="helpText" v-if="isFocus && isEmpty">{{this.helpText}}</p>
     </transition>
@@ -88,12 +88,12 @@
 }
 .Searchbar .icon {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
   color: rgba(0,0,0,0.2);
 }
 .Searchbar .iconContainer {
   position: relative;
+  top: 50%;
+  transform: translateY(-50%);
   right: 2.2rem;
   display: flex;
   justify-content: center;
