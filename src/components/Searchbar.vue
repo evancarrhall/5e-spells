@@ -14,10 +14,10 @@
       @input="handleInput"
     >
     <transition name="icon">
-      <i class="icon material-icons" v-show="!isFocus && isEmpty" >search</i>
+      <i class="icon material-icons" v-if="!isFocus && isEmpty" >search</i>
     </transition>
     <transition name="helpText">
-      <p class="helpText" v-show="isFocus && isEmpty">{{this.helpText}}</p>
+      <p class="helpText" v-if="isFocus && isEmpty">{{this.helpText}}</p>
     </transition>
   </div>
 </template>
@@ -91,13 +91,13 @@
   top: 50%;
   transform: translateY(-50%);
   padding-right: 1.0rem;
-  color: rgba(0,0,0,0.69)
+  color: rgba(0,0,0,0.69);
 }
-.Searchbar .icon-enter, .icon-leave-to {
-  transform: scale(0, 0);
+.Searchbar .icon-enter-active, .Searchbar .icon-leave-active {
+  transition: opacity 200ms linear;
 }
-.Searchbar .icon-enter-active, .icon-leave-active {
-  transition: transform 200ms ease;
+.Searchbar .icon-enter, .Searchbar .icon-leave-to {
+  opacity: 0;
 }
 .Searchbar .helpText {
   position: absolute;
