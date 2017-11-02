@@ -8,7 +8,7 @@
     <SpellCard
       class="spell"
       v-for="spell of spellList" :key="spell.name"
-      v-show=" spell.isVisible"
+      v-show="spell.isVisible !== false"
       :spell="spell"
     />
   </div>
@@ -35,10 +35,10 @@ import SpellCard from './components/SpellCard'
       }
     },
     mounted() {
-      for(const i of this.spellList.keys()) {
-        this.spellList[i].keywords = this.getSpellKeywords(this.spellList[i])
-        Vue.set(this.spellList[i], 'isVisible', true)
-      }
+      // for(const i of this.spellList.keys()) {
+      //   this.spellList[i].keywords = this.getSpellKeywords(this.spellList[i])
+      //   Vue.set(this.spellList[i], 'isVisible', true)
+      // }
     },
     methods: {
       handleInput(e) {
