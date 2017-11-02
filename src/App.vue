@@ -2,7 +2,7 @@
   <div id="app">
     <Searchbar
       class="search"
-      :helpText="'druid cantrip... 6th... fireball...'"
+      :helpText="'druid third... 6th... fireball...'"
       :onInput="handleInput"
     />
     <SpellCard
@@ -50,8 +50,22 @@ import SpellCard from './components/SpellCard'
         keywords.push(spell.name)
         for(const classObj of spell.classes) keywords.push(classObj.name)
         keywords.push(ordinal_suffix_of(spell.level))
+        if(spell.level !== 0) keywords.push(ordinal_string_of(spell.level))
         keywords = keywords.map((s) => s.toLowerCase())
         return keywords
+
+        function ordinal_string_of(i) {
+          if(i === 1) return 'first'
+          if(i === 2) return 'second'
+          if(i === 3) return 'third'
+          if(i === 4) return 'fourth'
+          if(i === 5) return 'fifth'
+          if(i === 6) return 'sixth'
+          if(i === 7) return 'seventh'
+          if(i === 8) return 'eighth'
+          if(i === 9) return 'ninth'
+          if(i === 10) return 'tenth'
+        }
 
         function ordinal_suffix_of(i) {
           if(i === 0) return 'Cantrip'
@@ -100,9 +114,6 @@ html {
   height: 100%;
   width: 100%;
   background-color: #cdcdcd;
-}
-body {
-  
 }
 #app {
   -webkit-font-smoothing: antialiased;
