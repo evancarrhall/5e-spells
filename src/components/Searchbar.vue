@@ -1,7 +1,6 @@
 <template>
   <div 
     class="Searchbar z-6"
-    :class="{'z-10' : isMousedown}"
     @mousedown="handleMousedown"
     @mouseup="handleMouseup"
     @mouseout="handleMouseout"
