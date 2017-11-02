@@ -8,12 +8,14 @@
     <SpellCard
       class="spell"
       v-for="spell of spellList" :key="spell.name"
+      v-show=" spell.isVisible"
       :spell="spell"
     />
   </div>
 </template>
 
 <script>
+import Vue from 'vue'
 import SPELLS from './assets/SPELLS'
 import Searchbar from './components/Searchbar'
 import SpellCard from './components/SpellCard'
@@ -27,23 +29,21 @@ import SpellCard from './components/SpellCard'
       }
     },
     computed: {
-      SPELLS() {
-        return SPELLS
-      },
       searchKeywords() {
         let searchKeywords = this.searchString.toLowerCase().split(' ').filter(s => s !== '')
         return searchKeywords
       }
     },
     mounted() {
-      for(const i of SPELLS.keys()) {
-        SPELLS[i].keywords = this.getSpellKeywords(SPELLS[i])
+      for(const i of this.spellList.keys()) {
+        this.spellList[i].keywords = this.getSpellKeywords(this.spellList[i])
+        Vue.set(this.spellList[i], 'isVisible', true)
       }
     },
     methods: {
       handleInput(e) {
         this.searchString = e.target.value
-        this.searchString === '' ? this.spellList = SPELLS : this.filterSpellList()
+        this.filterSpellList()
       },
       getSpellKeywords(spell) {
         let keywords = []
@@ -93,11 +93,9 @@ import SpellCard from './components/SpellCard'
         if(matches >= this.searchKeywords.length) return true
       },
       filterSpellList() {
-        let filteredSpellList = []
-        for(const spell of SPELLS) {
-          if(this.isMatch(spell)) filteredSpellList.push(spell)
+        for(const i of this.spellList.keys()) {
+          Vue.set(this.spellList[i], 'isVisible', this.isMatch(this.spellList[i]))
         }
-        this.spellList = filteredSpellList
       }
     }
   }
