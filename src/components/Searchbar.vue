@@ -87,14 +87,13 @@
   outline: none;
 }
 .Searchbar .icon {
-  position: absolute;
   color: rgba(0,0,0,0.2);
 }
 .Searchbar .iconContainer {
-  position: relative;
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 2.2rem;
+  right: 1.0rem;
   display: flex;
   justify-content: center;
   align-items: center;
