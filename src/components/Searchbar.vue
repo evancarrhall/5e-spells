@@ -90,10 +90,10 @@
   top: 50%;
   transform: translateY(-50%);
   padding-right: 1.0rem;
-  color: rgba(0,0,0,0.69);
+  color: rgba(0,0,0,0.2);
 }
 .Searchbar .icon-enter-active, .Searchbar .icon-leave-active {
-  transition: opacity 200ms linear;
+  transition: opacity 250ms linear;
 }
 .Searchbar .icon-enter, .Searchbar .icon-leave-to {
   opacity: 0;
@@ -113,6 +113,6 @@
   opacity: 0;
 }
 .Searchbar .helpText-enter-active {
-  transition: opacity 200ms linear;
+  transition: opacity 250ms linear;
 }
 </style>
