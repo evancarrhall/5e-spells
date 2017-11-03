@@ -77,7 +77,8 @@ import SpellCard from './components/SpellCard'
       },
       calculateColumns() {
         let width = document.documentElement.clientWidth
-        this.numberOfCols = Math.floor( (width - 24) / 356 )
+        let cols = Math.floor( (width - 24) / 356 )
+        this.numberOfCols = cols === 0 ? 1 : cols
       },
       handleResize() {
         this.calculateColumns()
@@ -121,5 +122,17 @@ html {
   display: inline-block;
   width: 35.0rem;
   margin: 0.4rem 0.3rem;
+}
+
+@media (max-width: 390px) {
+  .columnContainer {
+    width: 100%!important;
+  }
+  .search.Searchbar {
+    width: 100%!important;
+  }
+  .spell.SpellCard {
+    width: 100%!important;
+  }
 }
 </style>
