@@ -6,7 +6,7 @@
         width: appWidth}">
       <Searchbar
         class="search"
-        :helpText="'druid third... 6th... magic missile...'"
+        :helpText="'druid third... 6th... light...'"
         :onInput="handleInput"
       />
       <SpellCard
@@ -125,14 +125,19 @@ html {
 }
 
 @media (max-width: 390px) {
+  #app {
+    padding: 1.2rem 3.07%;
+  }
   .columnContainer {
     width: 100%!important;
   }
   .search.Searchbar {
     width: 100%!important;
+    margin: 0.4rem 0 1.6rem 0;
   }
   .spell.SpellCard {
     width: 100%!important;
+    margin: 0.4rem 0;
   }
 }
 </style>
