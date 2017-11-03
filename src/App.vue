@@ -35,10 +35,7 @@ import SpellCard from './components/SpellCard'
       }
     },
     mounted() {
-      for(const i of this.spellList.keys()) {
-        this.spellList[i].keywords = this.getSpellKeywords(this.spellList[i])
-        Vue.set(this.spellList[i], 'isVisible', true)
-      }
+
     },
     methods: {
       handleInput(e) {
