@@ -1,16 +1,21 @@
 <template>
   <div id="app">
-    <Searchbar
-      class="search"
-      :helpText="'druid third... 6th... magic missile...'"
-      :onInput="handleInput"
-    />
-    <SpellCard
-      class="spell"
-      v-for="spell of spellList" :key="spell.name"
-      v-if="spell.isVisible"
-      :spell="spell"
-    />
+    <div class="columnContainer" 
+      :style="{
+        'column-count': visibleSpellCount === 1 ? 1 : numberOfCols,
+        width: appWidth}">
+      <Searchbar
+        class="search"
+        :helpText="'druid third... 6th... magic missile...'"
+        :onInput="handleInput"
+      />
+      <SpellCard
+        class="spell"
+        v-for="spell of spellList" :key="spell.name"
+        v-show="spell.isVisible"
+        :spell="spell"
+      />
+    </div>
   </div>
 </template>
 
@@ -26,59 +31,31 @@ import SpellCard from './components/SpellCard'
       return {
         searchString: '',
         spellList: SPELLS,
+        visibleSpellCount: SPELLS.length,
+        numberOfCols: 1,
       }
     },
     computed: {
       searchKeywords() {
         let searchKeywords = this.searchString.toLowerCase().split(' ').filter(s => s !== '')
         return searchKeywords
+      },
+      appWidth() {
+        let width = this.numberOfCols * (356 + 10)
+        return width + "px"
       }
     },
     mounted() {
-
+      this.calculateColumns()
+      window.addEventListener('resize', this.handleResize)
+    },
+    beforeDestroy() {
+      window.removeEventListener('resize', this.handleResize)
     },
     methods: {
       handleInput(e) {
         this.searchString = e.target.value
         this.filterSpellList()
-      },
-      getSpellKeywords(spell) {
-        let keywords = []
-        keywords.push(spell.name)
-        for(const classObj of spell.classes) keywords.push(classObj.name)
-        keywords.push(ordinal_suffix_of(spell.level))
-        if(spell.level !== 0) keywords.push(ordinal_string_of(spell.level))
-        keywords = keywords.map((s) => s.toLowerCase())
-        return keywords
-
-        function ordinal_string_of(i) {
-          if(i === 1) return 'first'
-          if(i === 2) return 'second'
-          if(i === 3) return 'third'
-          if(i === 4) return 'fourth'
-          if(i === 5) return 'fifth'
-          if(i === 6) return 'sixth'
-          if(i === 7) return 'seventh'
-          if(i === 8) return 'eighth'
-          if(i === 9) return 'ninth'
-          if(i === 10) return 'tenth'
-        }
-
-        function ordinal_suffix_of(i) {
-          if(i === 0) return 'Cantrip'
-          var j = i % 10,
-              k = i % 100;
-          if (j == 1 && k != 11) {
-              return i + "st level";
-          }
-          if (j == 2 && k != 12) {
-              return i + "nd level";
-          }
-          if (j == 3 && k != 13) {
-              return i + "rd level";
-          }
-          return i + "th level";
-        }
       },
       isMatch(spell) {
         let matches = 0
@@ -91,8 +68,19 @@ import SpellCard from './components/SpellCard'
       },
       filterSpellList() {
         for(const i of this.spellList.keys()) {
-          Vue.set(this.spellList[i], 'isVisible', this.isMatch(this.spellList[i]))
+          const isMatch = this.isMatch(this.spellList[i])
+          if(isMatch !== this.spellList[i].isVisible) { 
+            Vue.set(this.spellList[i], 'isVisible', isMatch)
+            isMatch ? this.visibleSpellCount++ : this.visibleSpellCount--
+          }
         }
+      },
+      calculateColumns() {
+        let width = document.documentElement.clientWidth
+        this.numberOfCols = Math.floor( (width - 24) / 356 )
+      },
+      handleResize() {
+        this.calculateColumns()
       }
     }
   }
@@ -114,19 +102,24 @@ html {
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  flex-flow: column;
   padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+.columnContainer {
+  display: block;
+  column-width: 35.0rem;
+  column-fill: balance;
+  column-gap: 0px;
 }
 .search.Searchbar {
-  flex: none;
-  width: auto;
-  max-width: 35.0rem;
-  margin-bottom: 1.6rem;
+  float: left;
+  width: 35.0rem;
+  margin: 0.4rem 0.3rem 1.6rem 0.3rem;
 }
 .spell.SpellCard {
-  width: auto;
-  max-width: 35.0rem;
-  margin: 0.4rem 0;
+  display: inline-block;
+  width: 35.0rem;
+  margin: 0.4rem 0.3rem;
 }
 </style>

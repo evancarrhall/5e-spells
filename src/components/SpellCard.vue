@@ -87,7 +87,6 @@
 
 <style>
 .SpellCard {
-  max-width: 35.0rem;
   padding: 2.4rem 1.8rem;
   background-color: #fff;
   font-family: Roboto, Noto, sans-serif;

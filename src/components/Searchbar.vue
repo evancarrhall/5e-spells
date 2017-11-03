@@ -65,7 +65,6 @@
 
 <style>
 .Searchbar {
-  width: 35.0rem;
   display: flex;
   align-items: center;
   position: relative;
