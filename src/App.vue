@@ -8,7 +8,7 @@
     <SpellCard
       class="spell"
       v-for="spell of spellList" :key="spell.name"
-      v-show="spell.isVisible"
+      v-if="spell.isVisible"
       :spell="spell"
     />
   </div>
@@ -109,6 +109,7 @@ html {
   height: 100%;
   width: 100%;
   background-color: #cdcdcd;
+  overflow-y: scroll;
 }
 #app {
   -webkit-font-smoothing: antialiased;
