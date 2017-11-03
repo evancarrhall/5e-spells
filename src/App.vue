@@ -2,7 +2,7 @@
   <div id="app">
     <Searchbar
       class="search"
-      :helpText="'druid third... 6th... fireball...'"
+      :helpText="'druid third... 6th... magic missile...'"
       :onInput="handleInput"
     />
     <SpellCard
