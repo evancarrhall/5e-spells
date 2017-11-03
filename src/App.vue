@@ -3,9 +3,11 @@
     <div class="columnContainer" 
       :style="{
         'column-count': visibleSpellCount === 1 ? 1 : numberOfCols,
-        width: appWidth}">
+        'width': appWidth }"
+      >
       <Searchbar
         class="search"
+        :style="{'float': visibleSpellCount === 1 ? 'none' : 'left'}"
         :helpText="'druid third... 6th... light...'"
         :onInput="handleInput"
       />
@@ -47,10 +49,10 @@ import SpellCard from './components/SpellCard'
     },
     mounted() {
       this.calculateColumns()
-      window.addEventListener('resize', this.handleResize)
+      window.addEventListener('resize', this.calculateColumns)
     },
     beforeDestroy() {
-      window.removeEventListener('resize', this.handleResize)
+      window.removeEventListener('resize', this.calculateColumns)
     },
     methods: {
       handleInput(e) {
@@ -79,9 +81,6 @@ import SpellCard from './components/SpellCard'
         let width = document.documentElement.clientWidth
         let cols = Math.floor( (width - 24) / 356 )
         this.numberOfCols = cols === 0 ? 1 : cols
-      },
-      handleResize() {
-        this.calculateColumns()
       }
     }
   }
@@ -114,9 +113,9 @@ html {
   column-gap: 0px;
 }
 .search.Searchbar {
-  float: left;
   width: 35.0rem;
   margin: 0.4rem 0.3rem 1.6rem 0.3rem;
+  break-inside: avoid-column;
 }
 .spell.SpellCard {
   display: inline-block;
