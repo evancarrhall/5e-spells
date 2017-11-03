@@ -110,7 +110,7 @@
   left: 1.0rem;
   font-style: italic;
   font-weight: 600;
-  color: rgba(0,0,0,0.08);
+  color: rgba(0,0,0,0.12);
   font-size: 70%;
   user-select: none;
 }
