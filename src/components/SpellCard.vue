@@ -12,7 +12,10 @@
     </div>
     <div class="description"><p class="description" v-for="p of spell.desc" :key="p">{{p}}</p></div>
     <div class="description" v-for="(p, i) of spell.higher_level" :key="i"><div class="atHigherLevelLabel">{{atHigherLevelText(i)}}</div>{{p}}</div>
-    <div class="source">{{spell.page}}</div>
+    <div class="footer">
+      <div class="classes">{{classesText}}</div>
+      <div class="source">{{spell.page}}</div>
+    </div>
   </div>
 </template>
 
@@ -66,6 +69,12 @@
 
         const concentration = this.spell.concentration === 'yes' ? 'Concentration, ' : ''
         return concentration + this.spell.duration
+      },
+      classesText() {
+
+        let classes = []
+        this.spell.classes.map(classObj => classes.push(classObj.name))
+        return classes.join(', ')
       }
     },
     methods: {
@@ -115,15 +124,24 @@
 .SpellCard .description p {
   padding-bottom: 0.5rem;
 }
-.SpellCard strong {
-
-}
-.SpellCard .source {
-  text-transform: uppercase;
-  text-align: right;
+.SpellCard .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   font-size: 1.0rem;
   padding-top: 2.0em;
-  color: #555;
+  color: rgba(0, 0, 0, 0.7);
+}
+.SpellCard .footer .classes {
+  text-transform: uppercase;
+  width: 60%;
+  font-size: inherit;
+}
+.SpellCard .footer .source {
+  text-transform: uppercase;
+  text-align: right;
+  font-size: inherit;
+  
 }
 .SpellCard .atHigherLevelLabel {
   font-style: italic;
