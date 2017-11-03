@@ -46,7 +46,8 @@
             "acid arrow",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -93,7 +94,8 @@
             "acid splash",
             "sorcerer",
             "wizard",
-            "cantrip"
+            "cantrip",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -145,7 +147,8 @@
             "cleric",
             "paladin",
             "2nd level",
-            "second"
+            "second",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -196,7 +199,9 @@
             "ranger",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "ritual",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -249,7 +254,8 @@
             "sorcerer",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -307,7 +313,9 @@
             "druid",
             "ranger",
             "2nd level",
-            "second"
+            "second",
+            "ritual",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -346,7 +354,8 @@
             "animal shapes",
             "druid",
             "8th level",
-            "eighth"
+            "eighth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -400,7 +409,8 @@
             "cleric",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -453,7 +463,8 @@
             "sorcerer",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -492,7 +503,8 @@
             "antilife shell",
             "druid",
             "5th level",
-            "fifth"
+            "fifth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -545,7 +557,8 @@
             "cleric",
             "wizard",
             "8th level",
-            "eighth"
+            "eighth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -596,7 +609,8 @@
             "druid",
             "wizard",
             "8th level",
-            "eighth"
+            "eighth",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -642,7 +656,8 @@
             "cleric",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "divination"
         ],
         "isVisible": true
     },
@@ -694,7 +709,8 @@
             "arcane hand",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -739,7 +755,8 @@
             "arcane lock",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -784,7 +801,8 @@
             "bard",
             "wizard",
             "7th level",
-            "seventh"
+            "seventh",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -833,7 +851,8 @@
             "arcanist's magic aura",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -887,7 +906,8 @@
             "warlock",
             "wizard",
             "9th level",
-            "ninth"
+            "ninth",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -937,7 +957,9 @@
             "augury",
             "cleric",
             "2nd level",
-            "second"
+            "second",
+            "ritual",
+            "divination"
         ],
         "isVisible": true
     },
@@ -982,7 +1004,8 @@
             "bard",
             "druid",
             "5th level",
-            "fifth"
+            "fifth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -1034,7 +1057,8 @@
             "bard",
             "cleric",
             "1st level",
-            "first"
+            "first",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -1098,7 +1122,8 @@
             "warlock",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -1151,7 +1176,8 @@
             "druid",
             "ranger",
             "2nd level",
-            "second"
+            "second",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -1201,7 +1227,8 @@
             "beacon of hope",
             "cleric",
             "3rd level",
-            "third"
+            "third",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -1261,7 +1288,8 @@
             "cleric",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -1302,7 +1330,8 @@
             "black tentacles",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -1340,7 +1369,8 @@
             "blade barrier",
             "cleric",
             "6th level",
-            "sixth"
+            "sixth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -1396,7 +1426,8 @@
             "cleric",
             "paladin",
             "1st level",
-            "first"
+            "first",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -1458,7 +1489,8 @@
             "warlock",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -1521,7 +1553,8 @@
             "sorcerer",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -1569,7 +1602,8 @@
             "sorcerer",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -1619,7 +1653,8 @@
             "sorcerer",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -1674,7 +1709,8 @@
             "sorcerer",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -1725,7 +1761,8 @@
             "call lightning",
             "druid",
             "3rd level",
-            "third"
+            "third",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -1773,7 +1810,8 @@
             "bard",
             "cleric",
             "2nd level",
-            "second"
+            "second",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -1821,7 +1859,8 @@
             "sorcerer",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -1886,7 +1925,8 @@
             "warlock",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -1939,7 +1979,8 @@
             "sorcerer",
             "warlock",
             "wizard",
-            "cantrip"
+            "cantrip",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -1991,7 +2032,8 @@
             "warlock",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -2052,7 +2094,8 @@
             "sorcerer",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "divination"
         ],
         "isVisible": true
     },
@@ -2092,7 +2135,8 @@
             "clone",
             "wizard",
             "8th level",
-            "eighth"
+            "eighth",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -2144,7 +2188,8 @@
             "sorcerer",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -2197,7 +2242,8 @@
             "sorcerer",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -2261,7 +2307,8 @@
             "cleric",
             "paladin",
             "1st level",
-            "first"
+            "first",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -2307,7 +2354,9 @@
             "commune",
             "cleric",
             "5th level",
-            "fifth"
+            "fifth",
+            "ritual",
+            "divination"
         ],
         "isVisible": true
     },
@@ -2361,7 +2410,9 @@
             "druid",
             "ranger",
             "5th level",
-            "fifth"
+            "fifth",
+            "ritual",
+            "divination"
         ],
         "isVisible": true
     },
@@ -2421,7 +2472,9 @@
             "warlock",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "ritual",
+            "divination"
         ],
         "isVisible": true
     },
@@ -2474,7 +2527,8 @@
             "sorcerer",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -2533,7 +2587,8 @@
             "sorcerer",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -2590,7 +2645,8 @@
             "druid",
             "ranger",
             "3rd level",
-            "third"
+            "third",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -2632,7 +2688,8 @@
             "conjure celestial",
             "cleric",
             "7th level",
-            "seventh"
+            "seventh",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -2687,7 +2744,8 @@
             "druid",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -2735,7 +2793,8 @@
             "druid",
             "warlock",
             "6th level",
-            "sixth"
+            "sixth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -2787,7 +2846,8 @@
             "druid",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -2841,7 +2901,8 @@
             "druid",
             "ranger",
             "4th level",
-            "fourth"
+            "fourth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -2883,7 +2944,9 @@
             "warlock",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "ritual",
+            "divination"
         ],
         "isVisible": true
     },
@@ -2939,7 +3002,8 @@
             "cleric",
             "druid",
             "5th level",
-            "fifth"
+            "fifth",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -2980,7 +3044,8 @@
             "contingency",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -3029,7 +3094,8 @@
             "cleric",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -3090,7 +3156,8 @@
             "druid",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -3146,7 +3213,8 @@
             "druid",
             "wizard",
             "8th level",
-            "eighth"
+            "eighth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -3202,7 +3270,8 @@
             "druid",
             "paladin",
             "3rd level",
-            "third"
+            "third",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -3258,7 +3327,8 @@
             "cleric",
             "druid",
             "1st level",
-            "first"
+            "first",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -3312,7 +3382,8 @@
             "warlock",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -3371,7 +3442,8 @@
             "sorcerer",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -3440,7 +3512,8 @@
             "paladin",
             "ranger",
             "1st level",
-            "first"
+            "first",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -3494,7 +3567,8 @@
             "bard",
             "sorcerer",
             "wizard",
-            "cantrip"
+            "cantrip",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -3553,7 +3627,8 @@
             "warlock",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -3612,7 +3687,8 @@
             "sorcerer",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -3680,7 +3756,8 @@
             "ranger",
             "sorcerer",
             "3rd level",
-            "third"
+            "third",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -3729,7 +3806,8 @@
             "cleric",
             "paladin",
             "4th level",
-            "fourth"
+            "fourth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -3779,7 +3857,8 @@
             "sorcerer",
             "wizard",
             "7th level",
-            "seventh"
+            "seventh",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -3819,7 +3898,8 @@
             "warlock",
             "wizard",
             "8th level",
-            "eighth"
+            "eighth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -3867,7 +3947,8 @@
             "cleric",
             "paladin",
             "1st level",
-            "first"
+            "first",
+            "divination"
         ],
         "isVisible": true
     },
@@ -3940,7 +4021,9 @@
             "sorcerer",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "ritual",
+            "divination"
         ],
         "isVisible": true
     },
@@ -4000,7 +4083,9 @@
             "paladin",
             "ranger",
             "1st level",
-            "first"
+            "first",
+            "ritual",
+            "divination"
         ],
         "isVisible": true
     },
@@ -4058,7 +4143,8 @@
             "sorcerer",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "divination"
         ],
         "isVisible": true
     },
@@ -4111,7 +4197,8 @@
             "warlock",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -4165,7 +4252,8 @@
             "sorcerer",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -4215,7 +4303,8 @@
             "sorcerer",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -4264,7 +4353,8 @@
             "cleric",
             "paladin",
             "5th level",
-            "fifth"
+            "fifth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -4343,7 +4433,8 @@
             "warlock",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -4389,7 +4480,9 @@
             "divination",
             "druid",
             "4th level",
-            "fourth"
+            "fourth",
+            "ritual",
+            "divination"
         ],
         "isVisible": true
     },
@@ -4431,7 +4524,8 @@
             "divine favor",
             "paladin",
             "1st level",
-            "first"
+            "first",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -4472,7 +4566,8 @@
             "divine word",
             "cleric",
             "7th level",
-            "seventh"
+            "seventh",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -4519,7 +4614,8 @@
             "druid",
             "sorcerer",
             "4th level",
-            "fourth"
+            "fourth",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -4577,7 +4673,8 @@
             "warlock",
             "wizard",
             "8th level",
-            "eighth"
+            "eighth",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -4630,7 +4727,8 @@
             "sorcerer",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -4688,7 +4786,8 @@
             "warlock",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -4743,7 +4842,8 @@
             "druid",
             "sorcerer",
             "8th level",
-            "eighth"
+            "eighth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -4787,7 +4887,8 @@
         "keywords": [
             "eldritch blast",
             "warlock",
-            "cantrip"
+            "cantrip",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -4861,7 +4962,8 @@
             "druid",
             "sorcerer",
             "2nd level",
-            "second"
+            "second",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -4915,7 +5017,8 @@
             "sorcerer",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -4959,7 +5062,8 @@
             "entangle",
             "druid",
             "1st level",
-            "first"
+            "first",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -5006,7 +5110,8 @@
             "bard",
             "warlock",
             "2nd level",
-            "second"
+            "second",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -5070,7 +5175,8 @@
             "warlock",
             "wizard",
             "7th level",
-            "seventh"
+            "seventh",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -5122,7 +5228,8 @@
             "warlock",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -5180,7 +5287,8 @@
             "warlock",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -5219,7 +5327,8 @@
             "fabricate",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -5261,7 +5370,8 @@
             "faerie fire",
             "druid",
             "1st level",
-            "first"
+            "first",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -5302,7 +5412,8 @@
             "faithful hound",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -5354,7 +5465,8 @@
             "sorcerer",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -5414,7 +5526,8 @@
             "warlock",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -5467,7 +5580,8 @@
             "sorcerer",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -5524,7 +5638,8 @@
             "warlock",
             "wizard",
             "8th level",
-            "eighth"
+            "eighth",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -5570,7 +5685,8 @@
             "find steed",
             "paladin",
             "2nd level",
-            "second"
+            "second",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -5615,7 +5731,8 @@
             "bard",
             "cleric",
             "6th level",
-            "sixth"
+            "sixth",
+            "divination"
         ],
         "isVisible": true
     },
@@ -5668,7 +5785,8 @@
             "druid",
             "ranger",
             "2nd level",
-            "second"
+            "second",
+            "divination"
         ],
         "isVisible": true
     },
@@ -5716,7 +5834,8 @@
             "warlock",
             "wizard",
             "7th level",
-            "seventh"
+            "seventh",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -5773,7 +5892,8 @@
             "sorcerer",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -5819,7 +5939,8 @@
             "fire shield",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -5867,7 +5988,8 @@
             "druid",
             "sorcerer",
             "7th level",
-            "seventh"
+            "seventh",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -5916,7 +6038,8 @@
             "flame blade",
             "druid",
             "2nd level",
-            "second"
+            "second",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -5967,7 +6090,8 @@
             "flame strike",
             "cleric",
             "5th level",
-            "fifth"
+            "fifth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -6021,7 +6145,8 @@
             "druid",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -6068,7 +6193,8 @@
             "warlock",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -6114,7 +6240,9 @@
             "floating disk",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "ritual",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -6171,7 +6299,8 @@
             "warlock",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -6231,7 +6360,8 @@
             "sorcerer",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -6273,7 +6403,9 @@
             "forbiddance",
             "cleric",
             "6th level",
-            "sixth"
+            "sixth",
+            "ritual",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -6327,7 +6459,8 @@
             "warlock",
             "wizard",
             "7th level",
-            "seventh"
+            "seventh",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -6382,7 +6515,8 @@
             "warlock",
             "wizard",
             "9th level",
-            "ninth"
+            "ninth",
+            "divination"
         ],
         "isVisible": true
     },
@@ -6446,7 +6580,8 @@
             "druid",
             "ranger",
             "4th level",
-            "fourth"
+            "fourth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -6490,7 +6625,8 @@
             "freezing sphere",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -6550,7 +6686,8 @@
             "warlock",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -6602,7 +6739,8 @@
             "sorcerer",
             "wizard",
             "9th level",
-            "ninth"
+            "ninth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -6663,7 +6801,8 @@
             "paladin",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -6713,7 +6852,9 @@
             "cleric",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "ritual",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -6753,7 +6894,8 @@
             "giant insect",
             "druid",
             "4th level",
-            "fourth"
+            "fourth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -6794,7 +6936,8 @@
             "bard",
             "warlock",
             "8th level",
-            "eighth"
+            "eighth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -6842,7 +6985,8 @@
             "sorcerer",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -6907,7 +7051,8 @@
             "cleric",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -6952,7 +7097,8 @@
             "grease",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -7004,7 +7150,8 @@
             "sorcerer",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -7057,7 +7204,8 @@
             "cleric",
             "druid",
             "5th level",
-            "fifth"
+            "fifth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -7118,7 +7266,8 @@
             "bard",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -7164,7 +7313,8 @@
             "guidance",
             "cleric",
             "druid",
-            "cantrip"
+            "cantrip",
+            "divination"
         ],
         "isVisible": true
     },
@@ -7209,7 +7359,8 @@
             "guiding bolt",
             "cleric",
             "1st level",
-            "first"
+            "first",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -7266,7 +7417,8 @@
             "sorcerer",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -7332,7 +7484,8 @@
             "hallow",
             "cleric",
             "5th level",
-            "fifth"
+            "fifth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -7392,7 +7545,8 @@
             "warlock",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -7429,7 +7583,8 @@
             "harm",
             "cleric",
             "6th level",
-            "sixth"
+            "sixth",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -7483,7 +7638,8 @@
             "sorcerer",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -7531,7 +7687,8 @@
             "cleric",
             "druid",
             "6th level",
-            "sixth"
+            "sixth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -7585,7 +7742,8 @@
             "cleric",
             "druid",
             "1st level",
-            "first"
+            "first",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -7638,7 +7796,8 @@
             "bard",
             "druid",
             "2nd level",
-            "second"
+            "second",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -7683,7 +7842,8 @@
             "cleric",
             "druid",
             "6th level",
-            "sixth"
+            "sixth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -7730,7 +7890,8 @@
             "bard",
             "paladin",
             "1st level",
-            "first"
+            "first",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -7780,7 +7941,8 @@
             "bard",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -7837,7 +7999,8 @@
             "warlock",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -7913,7 +8076,8 @@
             "warlock",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -7952,7 +8116,8 @@
             "holy aura",
             "cleric",
             "8th level",
-            "eighth"
+            "eighth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -8011,7 +8176,8 @@
             "warlock",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -8069,7 +8235,8 @@
             "sorcerer",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -8119,7 +8286,9 @@
             "bard",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "ritual",
+            "divination"
         ],
         "isVisible": true
     },
@@ -8175,7 +8344,9 @@
             "warlock",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "ritual",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -8233,7 +8404,8 @@
             "warlock",
             "wizard",
             "9th level",
-            "ninth"
+            "ninth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -8277,7 +8449,8 @@
             "sorcerer",
             "wizard",
             "8th level",
-            "eighth"
+            "eighth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -8322,7 +8495,8 @@
             "inflict wounds",
             "cleric",
             "1st level",
-            "first"
+            "first",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -8380,7 +8554,8 @@
             "druid",
             "sorcerer",
             "5th level",
-            "fifth"
+            "fifth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -8422,7 +8597,9 @@
             "instant summons",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "ritual",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -8488,7 +8665,8 @@
             "warlock",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -8530,7 +8708,8 @@
             "bard",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -8592,7 +8771,8 @@
             "sorcerer",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -8646,7 +8826,8 @@
             "sorcerer",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -8696,7 +8877,8 @@
             "cleric",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "divination"
         ],
         "isVisible": true
     },
@@ -8766,7 +8948,8 @@
             "paladin",
             "ranger",
             "2nd level",
-            "second"
+            "second",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -8817,7 +9000,8 @@
             "sorcerer",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -8875,7 +9059,8 @@
             "cleric",
             "sorcerer",
             "wizard",
-            "cantrip"
+            "cantrip",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -8932,7 +9117,8 @@
             "sorcerer",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -8986,7 +9172,9 @@
             "druid",
             "ranger",
             "2nd level",
-            "second"
+            "second",
+            "ritual",
+            "divination"
         ],
         "isVisible": true
     },
@@ -9057,7 +9245,8 @@
             "ranger",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "divination"
         ],
         "isVisible": true
     },
@@ -9128,7 +9317,8 @@
             "ranger",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "divination"
         ],
         "isVisible": true
     },
@@ -9190,7 +9380,8 @@
             "ranger",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -9239,7 +9430,8 @@
             "sorcerer",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -9297,7 +9489,8 @@
             "sorcerer",
             "warlock",
             "wizard",
-            "cantrip"
+            "cantrip",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -9363,7 +9556,8 @@
             "warlock",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -9408,7 +9602,8 @@
             "magic jar",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -9458,7 +9653,8 @@
             "sorcerer",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -9510,7 +9706,9 @@
             "bard",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "ritual",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -9560,7 +9758,8 @@
             "paladin",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -9606,7 +9805,8 @@
             "bard",
             "wizard",
             "7th level",
-            "seventh"
+            "seventh",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -9670,7 +9870,8 @@
             "warlock",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -9725,7 +9926,8 @@
             "cleric",
             "druid",
             "5th level",
-            "fifth"
+            "fifth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -9762,7 +9964,8 @@
             "mass heal",
             "cleric",
             "9th level",
-            "ninth"
+            "ninth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -9806,7 +10009,8 @@
             "mass healing word",
             "cleric",
             "3rd level",
-            "third"
+            "third",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -9865,7 +10069,8 @@
             "warlock",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -9904,7 +10109,8 @@
             "maze",
             "wizard",
             "8th level",
-            "eighth"
+            "eighth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -9952,7 +10158,9 @@
             "meld into stone",
             "cleric",
             "3rd level",
-            "third"
+            "third",
+            "ritual",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -10016,7 +10224,8 @@
             "druid",
             "sorcerer",
             "wizard",
-            "cantrip"
+            "cantrip",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -10070,7 +10279,8 @@
             "bard",
             "sorcerer",
             "wizard",
-            "cantrip"
+            "cantrip",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -10113,7 +10323,8 @@
             "sorcerer",
             "wizard",
             "9th level",
-            "ninth"
+            "ninth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -10155,7 +10366,8 @@
             "bard",
             "wizard",
             "8th level",
-            "eighth"
+            "eighth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -10215,7 +10427,8 @@
             "sorcerer",
             "warlock",
             "wizard",
-            "cantrip"
+            "cantrip",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -10265,7 +10478,8 @@
             "druid",
             "wizard",
             "7th level",
-            "seventh"
+            "seventh",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -10325,7 +10539,8 @@
             "warlock",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -10366,7 +10581,8 @@
             "bard",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -10421,7 +10637,8 @@
             "warlock",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -10470,7 +10687,8 @@
             "bard",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -10520,7 +10738,8 @@
             "moonbeam",
             "druid",
             "2nd level",
-            "second"
+            "second",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -10573,7 +10792,8 @@
             "sorcerer",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -10627,7 +10847,8 @@
             "ranger",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -10680,7 +10901,8 @@
             "druid",
             "ranger",
             "2nd level",
-            "second"
+            "second",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -10725,7 +10947,8 @@
             "passwall",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -10765,7 +10988,8 @@
             "phantasmal killer",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -10808,7 +11032,9 @@
             "phantom steed",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "ritual",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -10850,7 +11076,8 @@
             "planar ally",
             "cleric",
             "6th level",
-            "sixth"
+            "sixth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -10908,7 +11135,8 @@
             "druid",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -10969,7 +11197,8 @@
             "warlock",
             "wizard",
             "7th level",
-            "seventh"
+            "seventh",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -11028,7 +11257,8 @@
             "druid",
             "ranger",
             "3rd level",
-            "third"
+            "third",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -11086,7 +11316,8 @@
             "sorcerer",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -11137,7 +11368,8 @@
             "warlock",
             "wizard",
             "9th level",
-            "ninth"
+            "ninth",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -11189,7 +11421,8 @@
             "warlock",
             "wizard",
             "8th level",
-            "eighth"
+            "eighth",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -11233,7 +11466,8 @@
             "prayer of healing",
             "cleric",
             "2nd level",
-            "second"
+            "second",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -11296,7 +11530,8 @@
             "sorcerer",
             "warlock",
             "wizard",
-            "cantrip"
+            "cantrip",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -11354,7 +11589,8 @@
             "sorcerer",
             "wizard",
             "7th level",
-            "seventh"
+            "seventh",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -11409,7 +11645,8 @@
             "prismatic wall",
             "wizard",
             "9th level",
-            "ninth"
+            "ninth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -11459,7 +11696,8 @@
             "private sanctum",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -11502,7 +11740,8 @@
         "keywords": [
             "produce flame",
             "druid",
-            "cantrip"
+            "cantrip",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -11549,7 +11788,8 @@
             "bard",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -11596,7 +11836,8 @@
             "bard",
             "wizard",
             "7th level",
-            "seventh"
+            "seventh",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -11662,7 +11903,8 @@
             "sorcerer",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -11726,7 +11968,8 @@
             "warlock",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -11784,7 +12027,8 @@
             "paladin",
             "ranger",
             "2nd level",
-            "second"
+            "second",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -11836,7 +12080,9 @@
             "druid",
             "paladin",
             "1st level",
-            "first"
+            "first",
+            "ritual",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -11893,7 +12139,8 @@
             "cleric",
             "paladin",
             "5th level",
-            "fifth"
+            "fifth",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -11941,7 +12188,8 @@
             "warlock",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -11988,7 +12236,8 @@
             "ray of frost",
             "sorcerer",
             "wizard",
-            "cantrip"
+            "cantrip",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -12038,7 +12287,8 @@
             "cleric",
             "druid",
             "7th level",
-            "seventh"
+            "seventh",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -12107,7 +12357,8 @@
             "reincarnate",
             "druid",
             "5th level",
-            "fifth"
+            "fifth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -12164,7 +12415,8 @@
             "warlock",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -12206,7 +12458,8 @@
             "resilient sphere",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -12254,7 +12507,8 @@
             "resistance",
             "cleric",
             "druid",
-            "cantrip"
+            "cantrip",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -12302,7 +12556,8 @@
             "bard",
             "cleric",
             "7th level",
-            "seventh"
+            "seventh",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -12353,7 +12608,8 @@
             "sorcerer",
             "wizard",
             "7th level",
-            "seventh"
+            "seventh",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -12406,7 +12662,8 @@
             "cleric",
             "paladin",
             "3rd level",
-            "third"
+            "third",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -12453,7 +12710,8 @@
             "rope trick",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -12495,7 +12753,8 @@
         "keywords": [
             "sacred flame",
             "cleric",
-            "cantrip"
+            "cantrip",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -12544,7 +12803,8 @@
             "sanctuary",
             "cleric",
             "1st level",
-            "first"
+            "first",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -12599,7 +12859,8 @@
             "sorcerer",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -12676,7 +12937,8 @@
             "warlock",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "divination"
         ],
         "isVisible": true
     },
@@ -12717,7 +12979,8 @@
             "secret chest",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -12771,7 +13034,8 @@
             "sorcerer",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "divination"
         ],
         "isVisible": true
     },
@@ -12821,7 +13085,8 @@
             "sorcerer",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -12876,7 +13141,8 @@
             "cleric",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -12917,7 +13183,8 @@
             "sequester",
             "wizard",
             "7th level",
-            "seventh"
+            "seventh",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -12966,7 +13233,8 @@
             "druid",
             "wizard",
             "9th level",
-            "ninth"
+            "ninth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -13029,7 +13297,8 @@
             "warlock",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -13076,7 +13345,8 @@
             "sorcerer",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -13125,7 +13395,8 @@
             "cleric",
             "paladin",
             "1st level",
-            "first"
+            "first",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -13168,7 +13439,8 @@
         "keywords": [
             "shillelagh",
             "druid",
-            "cantrip"
+            "cantrip",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -13215,7 +13487,8 @@
             "shocking grasp",
             "sorcerer",
             "wizard",
-            "cantrip"
+            "cantrip",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -13272,7 +13545,9 @@
             "cleric",
             "ranger",
             "2nd level",
-            "second"
+            "second",
+            "ritual",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -13328,7 +13603,8 @@
             "sorcerer",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -13370,7 +13646,8 @@
             "simulacrum",
             "wizard",
             "7th level",
-            "seventh"
+            "seventh",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -13429,7 +13706,8 @@
             "sorcerer",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -13489,7 +13767,8 @@
             "sorcerer",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -13545,7 +13824,8 @@
             "sorcerer",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -13597,7 +13877,9 @@
             "druid",
             "ranger",
             "1st level",
-            "first"
+            "first",
+            "ritual",
+            "divination"
         ],
         "isVisible": true
     },
@@ -13647,7 +13929,8 @@
             "bard",
             "cleric",
             "3rd level",
-            "third"
+            "third",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -13703,7 +13986,8 @@
             "druid",
             "ranger",
             "3rd level",
-            "third"
+            "third",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -13761,7 +14045,8 @@
             "warlock",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -13815,7 +14100,8 @@
             "druid",
             "ranger",
             "2nd level",
-            "second"
+            "second",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -13863,7 +14149,8 @@
             "spirit guardians",
             "cleric",
             "3rd level",
-            "third"
+            "third",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -13914,7 +14201,8 @@
             "spiritual weapon",
             "cleric",
             "2nd level",
-            "second"
+            "second",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -13978,7 +14266,8 @@
             "sorcerer",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -14032,7 +14321,8 @@
             "druid",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -14091,7 +14381,8 @@
             "sorcerer",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -14137,7 +14428,8 @@
             "storm of vengeance",
             "druid",
             "9th level",
-            "ninth"
+            "ninth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -14198,7 +14490,8 @@
             "warlock",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "enchantment"
         ],
         "isVisible": true
     },
@@ -14249,7 +14542,8 @@
             "sorcerer",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -14300,7 +14594,8 @@
             "sorcerer",
             "wizard",
             "8th level",
-            "eighth"
+            "eighth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -14369,7 +14664,8 @@
             "cleric",
             "wizard",
             "7th level",
-            "seventh"
+            "seventh",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -14418,7 +14714,8 @@
             "sorcerer",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -14458,7 +14755,9 @@
             "telepathic bond",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "ritual",
+            "divination"
         ],
         "isVisible": true
     },
@@ -14505,7 +14804,8 @@
             "sorcerer",
             "wizard",
             "7th level",
-            "seventh"
+            "seventh",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -14555,7 +14855,8 @@
             "sorcerer",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -14602,7 +14903,8 @@
         "keywords": [
             "thaumaturgy",
             "cleric",
-            "cantrip"
+            "cantrip",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -14663,7 +14965,8 @@
             "sorcerer",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -14705,7 +15008,8 @@
             "sorcerer",
             "wizard",
             "9th level",
-            "ninth"
+            "ninth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -14756,7 +15060,9 @@
             "bard",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "ritual",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -14819,7 +15125,8 @@
             "warlock",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "divination"
         ],
         "isVisible": true
     },
@@ -14856,7 +15163,8 @@
             "transport via plants",
             "druid",
             "6th level",
-            "sixth"
+            "sixth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -14904,7 +15212,8 @@
             "druid",
             "ranger",
             "5th level",
-            "fifth"
+            "fifth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -14964,7 +15273,8 @@
             "warlock",
             "wizard",
             "9th level",
-            "ninth"
+            "ninth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -15010,7 +15320,8 @@
             "cleric",
             "druid",
             "9th level",
-            "ninth"
+            "ninth",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -15069,7 +15380,8 @@
             "warlock",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "divination"
         ],
         "isVisible": true
     },
@@ -15122,7 +15434,8 @@
             "sorcerer",
             "warlock",
             "wizard",
-            "cantrip"
+            "cantrip",
+            "divination"
         ],
         "isVisible": true
     },
@@ -15178,7 +15491,9 @@
             "warlock",
             "wizard",
             "1st level",
-            "first"
+            "first",
+            "ritual",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -15228,7 +15543,8 @@
             "warlock",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "necromancy"
         ],
         "isVisible": true
     },
@@ -15288,7 +15604,8 @@
             "sorcerer",
             "wizard",
             "4th level",
-            "fourth"
+            "fourth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -15328,7 +15645,8 @@
             "wall of force",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -15372,7 +15690,8 @@
             "wall of ice",
             "wizard",
             "6th level",
-            "sixth"
+            "sixth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -15431,7 +15750,8 @@
             "sorcerer",
             "wizard",
             "5th level",
-            "fifth"
+            "fifth",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -15475,7 +15795,8 @@
             "wall of thorns",
             "druid",
             "6th level",
-            "sixth"
+            "sixth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -15521,7 +15842,8 @@
             "warding bond",
             "cleric",
             "2nd level",
-            "second"
+            "second",
+            "abjuration"
         ],
         "isVisible": true
     },
@@ -15584,7 +15906,9 @@
             "sorcerer",
             "wizard",
             "3rd level",
-            "third"
+            "third",
+            "ritual",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -15647,7 +15971,9 @@
             "ranger",
             "sorcerer",
             "3rd level",
-            "third"
+            "third",
+            "ritual",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -15704,7 +16030,8 @@
             "sorcerer",
             "wizard",
             "2nd level",
-            "second"
+            "second",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -15741,7 +16068,8 @@
             "weird",
             "wizard",
             "9th level",
-            "ninth"
+            "ninth",
+            "illusion"
         ],
         "isVisible": true
     },
@@ -15781,7 +16109,8 @@
             "wind walk",
             "druid",
             "6th level",
-            "sixth"
+            "sixth",
+            "transmutation"
         ],
         "isVisible": true
     },
@@ -15832,7 +16161,8 @@
             "druid",
             "ranger",
             "3rd level",
-            "third"
+            "third",
+            "evocation"
         ],
         "isVisible": true
     },
@@ -15881,7 +16211,8 @@
             "sorcerer",
             "wizard",
             "9th level",
-            "ninth"
+            "ninth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -15918,7 +16249,8 @@
             "word of recall",
             "cleric",
             "6th level",
-            "sixth"
+            "sixth",
+            "conjuration"
         ],
         "isVisible": true
     },
@@ -15975,7 +16307,8 @@
             "cleric",
             "paladin",
             "2nd level",
-            "second"
+            "second",
+            "enchantment"
         ],
         "isVisible": true
     }

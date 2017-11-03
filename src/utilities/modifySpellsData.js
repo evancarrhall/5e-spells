@@ -7,7 +7,7 @@
 | 
 */
 
-var SPELLS = require('./assets/SPELLS.json')
+var SPELLS = require('../assets/SPELLS.json')
 const fs = require('fs')
 
 for(const i of SPELLS.keys()) {
@@ -16,7 +16,7 @@ for(const i of SPELLS.keys()) {
 }
 
 json = JSON.stringify(SPELLS)
-fs.writeFile('./assets/SPELLS2.json', json, 'utf8');
+fs.writeFile('../assets/SPELLS2.json', json, 'utf8');
 
 function getSpellKeywords(spell) {
     let keywords = []
@@ -24,6 +24,8 @@ function getSpellKeywords(spell) {
     for(const classObj of spell.classes) keywords.push(classObj.name)
     keywords.push(ordinal_suffix_of(spell.level))
     if(spell.level !== 0) keywords.push(ordinal_string_of(spell.level))
+    if(spell.ritual === 'yes') keywords.push('ritual')
+    keywords.push(spell.school.name)
     keywords = keywords.map((s) => s.toLowerCase())
     return keywords
 
