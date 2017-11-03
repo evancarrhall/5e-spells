@@ -99,7 +99,7 @@
   align-items: center;
 }
 .Searchbar .icon-enter-active, .Searchbar .icon-leave-active {
-  transition: all 250ms ease;
+  transition: all 120ms ease;
 }
 .Searchbar .icon-enter, .Searchbar .icon-leave-to {
   transform: scale(0, 0);
@@ -111,7 +111,7 @@
   left: 1.0rem;
   font-style: italic;
   font-weight: 600;
-  color: rgba(0,0,0,0.1);
+  color: rgba(0,0,0,0.08);
   font-size: 70%;
   user-select: none;
 }
@@ -119,6 +119,6 @@
   opacity: 0;
 }
 .Searchbar .helpText-enter-active {
-  transition: opacity 250ms linear;
+  transition: opacity 120ms linear;
 }
 </style>
