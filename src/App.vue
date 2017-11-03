@@ -116,24 +116,17 @@ html {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   flex-flow: column;
-  align-items: center;
   padding: 1.2rem;
 }
 .search.Searchbar {
   flex: none;
+  width: auto;
+  max-width: 35.0rem;
   margin-bottom: 1.6rem;
 }
 .spell.SpellCard {
+  width: auto;
+  max-width: 35.0rem;
   margin: 0.4rem 0;
-  flex: 1 1 auto;
-}
-
-@media (max-width: 375px) {
-  .search.Searchbar {
-    width: 100%;
-  }
-  .spell.SpellCard {
-    width: 100%;
-  }
 }
 </style>
