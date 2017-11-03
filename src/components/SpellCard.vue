@@ -132,8 +132,9 @@
   color: rgba(0, 0, 0, 0.7);
 }
 .SpellCard .footer .classes {
-  text-transform: uppercase;
+  font-style: italic;
   width: 60%;
+  color: rgba(0,0,0,0.45);
   font-size: inherit;
 }
 .SpellCard .footer .source {
