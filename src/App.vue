@@ -11,12 +11,12 @@
         :helpText="'druid third... 6th... light...'"
         :onInput="handleInput"
       />
-      <!-- <SpellCard
+      <SpellCard
         class="spell"
         v-for="spell of spellList" :key="spell.name"
         v-show="spell.isVisible"
         :spell="spell"
-      /> -->
+      />
     </div>
   </div>
 </template>
