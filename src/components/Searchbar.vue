@@ -14,7 +14,6 @@
     >
     <div class="iconContainer">
       <transition name="icon">
-        <!-- <i class="icon material-icons" v-if="!isFocus && isEmpty">search</i> -->
         <img class="icon" v-if="!isFocus && isEmpty" src="../assets/ic_search_24px.svg">
       </transition>
     </div>

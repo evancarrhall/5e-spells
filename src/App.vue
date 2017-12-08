@@ -23,7 +23,6 @@
 
 <script>
 import Vue from 'vue'
-// import SPELLS from './assets/SPELLS'
 import Searchbar from './components/Searchbar'
 import SpellCard from './components/SpellCard'
   export default {
@@ -56,7 +55,6 @@ import SpellCard from './components/SpellCard'
       .then(response => {
         return response.json();
       }).then(json => {
-        console.log(json);
         json.forEach(spell => this.spellList.push(spell))
       })
     },
