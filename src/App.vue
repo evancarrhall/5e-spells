@@ -55,9 +55,10 @@ import SpellCard from './components/SpellCard'
       window.fetch('./static/SPELLS.json')
       .then(response => {
         console.log(response);
-        console.log(response.json())
-        response.json().forEach(spell => {
+        console.log(response.json()).then(response => {
+          response.json().forEach(spell => {
           spellList.push(spell);
+        })
         })
       })
     },
