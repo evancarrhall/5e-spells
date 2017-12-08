@@ -57,7 +57,7 @@ import SpellCard from './components/SpellCard'
         return response.json();
       }).then(json => {
         console.log(json);
-        json.forEach(spellList.push)
+        json.forEach(this.spellList.push)
       })
     },
     beforeDestroy() {
