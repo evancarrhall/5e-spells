@@ -1,6 +1,6 @@
 <template>
   <div
-    class="SpellCard z-2"
+    class="SpellCard"
   >
     <div class="name">{{spell.name}}</div>
     <div class="levelAndSchool">{{levelAndSchoolText}}</div>
@@ -89,8 +89,11 @@
 .SpellCard {
   padding: 2.4rem 1.8rem;
   background-color: #fff;
-  font-family: Roboto, Noto, sans-serif;
+  font-family: Roboto, sans-serif;
   border-radius: 0.3rem;
+  box-shadow:  0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+  0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+  0px 3px 1px -2px rgba(0, 0, 0, 0.12);
 }
 .SpellCard .name {
   font-size: 2.4rem;

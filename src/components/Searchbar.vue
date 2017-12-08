@@ -1,6 +1,6 @@
 <template>
   <div 
-    class="Searchbar z-6"
+    class="Searchbar"
     @mousedown="handleMousedown"
     @mouseup="handleMouseup"
     @mouseout="handleMouseout"
@@ -14,7 +14,8 @@
     >
     <div class="iconContainer">
       <transition name="icon">
-        <i class="icon material-icons" v-if="!isFocus && isEmpty">search</i>
+        <!-- <i class="icon material-icons" v-if="!isFocus && isEmpty">search</i> -->
+        <img class="icon" v-if="!isFocus && isEmpty" src="../assets/ic_search_24px.svg">
       </transition>
     </div>
     <transition name="helpText">
@@ -72,6 +73,9 @@
   border-radius: 0.3rem;
   font-family: Raleway, sans-serif;
   font-size: 2.4rem;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+  0px 6px 10px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 18px 0px rgba(0, 0, 0, 0.12);
 }
 .Searchbar .input {
   position: relative;
@@ -86,7 +90,7 @@
   outline: none;
 }
 .Searchbar .icon {
-  color: rgba(0,0,0,0.2);
+  opacity: 0.2;
 }
 .Searchbar .iconContainer {
   position: absolute;
