@@ -54,12 +54,10 @@ import SpellCard from './components/SpellCard'
       window.addEventListener('resize', this.calculateColumns)
       window.fetch('./static/SPELLS.json')
       .then(response => {
-        console.log(response);
-        console.log(response.json()).then(response => {
-          response.json().forEach(spell => {
-          spellList.push(spell);
-        })
-        })
+        return response.json();
+      }).then(json => {
+        console.log(json);
+        json.forEach(spellList.push)
       })
     },
     beforeDestroy() {
