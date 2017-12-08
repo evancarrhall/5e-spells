@@ -11,19 +11,19 @@
         :helpText="'druid third... 6th... light...'"
         :onInput="handleInput"
       />
-      <SpellCard
+      <!-- <SpellCard
         class="spell"
         v-for="spell of spellList" :key="spell.name"
         v-show="spell.isVisible"
         :spell="spell"
-      />
+      /> -->
     </div>
   </div>
 </template>
 
 <script>
 import Vue from 'vue'
-import SPELLS from './assets/SPELLS'
+// import SPELLS from './assets/SPELLS'
 import Searchbar from './components/Searchbar'
 import SpellCard from './components/SpellCard'
   export default {
@@ -32,8 +32,7 @@ import SpellCard from './components/SpellCard'
     data() {
       return {
         searchString: '',
-        spellList: SPELLS,
-        visibleSpellCount: SPELLS.length,
+        spellList: [],
         numberOfCols: 1,
       }
     },
@@ -45,11 +44,18 @@ import SpellCard from './components/SpellCard'
       appWidth() {
         let width = this.numberOfCols * (356 + 10)
         return width + "px"
+      },
+      visibleSpellCount() {
+        return this.spellList.length
       }
     },
     mounted() {
       this.calculateColumns()
       window.addEventListener('resize', this.calculateColumns)
+      window.fetch('./assets/SPELLS.json')
+      .then(response => {
+        console.log(response)
+      })
     },
     beforeDestroy() {
       window.removeEventListener('resize', this.calculateColumns)
