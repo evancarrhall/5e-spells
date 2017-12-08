@@ -52,7 +52,7 @@ import SpellCard from './components/SpellCard'
     mounted() {
       this.calculateColumns()
       window.addEventListener('resize', this.calculateColumns)
-      window.fetch('./assets/SPELLS.json')
+      window.fetch('./static/SPELLS.json')
       .then(response => {
         console.log(response);
         console.log(response.json())
