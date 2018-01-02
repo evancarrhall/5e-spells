@@ -78,7 +78,7 @@ var vm = new Vue({
     data: {
         searchString: '',
         spellList: [],
-        hasLoaded: false
+        hasLoaded: false,
     },
     computed: {
         searchKeywords() {
