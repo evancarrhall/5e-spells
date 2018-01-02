@@ -10,7 +10,7 @@
       <div class="components spellblock">{{componentsString}}<strong>components</strong></div>
       <div class="duration spellblock">{{durationText}}<strong>duration</strong></div>
     </div>
-    <div class="description"><p class="description" v-for="p of spell.desc" :key="p">{{p}}</p></div>
+    <div class="description"><p class="description" v-for="(p, i) of spell.desc" :key="i">{{p}}</p></div>
     <div class="description" v-for="(p, i) of spell.higher_level" :key="i"><div class="atHigherLevelLabel">{{atHigherLevelText(i)}}</div>{{p}}</div>
     <div class="footer">
       <div class="classes">{{classesText}}</div>

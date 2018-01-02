@@ -33,6 +33,7 @@ import SpellCard from './components/SpellCard'
         searchString: '',
         spellList: [],
         numberOfCols: 1,
+        visibleSpellCount: 0,
       }
     },
     computed: {
@@ -43,9 +44,6 @@ import SpellCard from './components/SpellCard'
       appWidth() {
         let width = this.numberOfCols * (356 + 10)
         return width + "px"
-      },
-      visibleSpellCount() {
-        return this.spellList.length
       }
     },
     mounted() {
