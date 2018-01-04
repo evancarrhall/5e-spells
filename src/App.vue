@@ -50,12 +50,6 @@ import SPELLS from './assets/SPELLS.json'
     mounted() {
       this.calculateColumns()
       window.addEventListener('resize', this.calculateColumns)
-      // window.fetch('./static/SPELLS.json')
-      // .then(response => {
-      //   return response.json();
-      // }).then(json => {
-      //   json.forEach(spell => this.spellList.push(spell))
-      // })
     },
     beforeDestroy() {
       window.removeEventListener('resize', this.calculateColumns)
@@ -84,9 +78,12 @@ import SPELLS from './assets/SPELLS.json'
         }
       },
       calculateColumns() {
-        let width = document.documentElement.clientWidth
-        let cols = Math.floor( (width - 24) / 356 )
-        this.numberOfCols = cols === 0 ? 1 : cols
+        requestAnimationFrame(() => {
+          let width = document.documentElement.clientWidth
+          let cols = Math.floor( (width - 24) / 356 )
+          this.numberOfCols = cols === 0 ? 1 : cols
+        })
+
       }
     }
   }
