@@ -2,20 +2,21 @@ var SpellCard = {
     name: 'spell-card',
     template:
     `<div class="SpellCard">
-        <div class="name">{{spell.name}}</div>
-        <div class="levelAndSchool">{{levelAndSchoolText}}</div>
-        <div class="spellblock">
-            <div class="castingTime spellblock">{{spell.casting_time}}<strong>casting time</strong></div>
-            <div class="range spellblock">{{spell.range}}<strong>range</strong></div>
-            <div class="components spellblock">{{componentsString}}<strong>components</strong></div>
-            <div class="duration spellblock">{{durationText}}<strong>duration</strong></div>
+        <div class="spell-card__name">{{spell.name}}</div>
+        <div class="spell-card__level-school">{{levelAndSchoolText}}</div>
+        <div class="spell-card__spellblock">
+            {{spell.casting_time}}<strong>casting time</strong><br>
+            {{spell.range}}<strong>range</strong><br>
+            {{componentsString}}<strong>components</strong><br>
+            {{durationText}}<strong>duration</strong><br>
         </div>
-        <div class="description"><p class="description" v-for="p of spell.desc" :key="p">{{p}}</p></div>
-        <div class="description" v-for="(p, i) of spell.higher_level" :key="i"><div class="atHigherLevelLabel">{{atHigherLevelText(i)}}</div>{{p}}</div>
-        <div class="footer">
-            <div class="classes">{{classesText}}</div>
-            <div class="source">{{spell.page}}</div>
+        <p class="spell-card__description" v-for="p of spell.desc" :key="p">{{p}}</p>
+        <div class="spell-card__description" v-for="(p, i) of spell.higher_level" :key="i">
+            <div class="spell-card__higher-level-label" v-if="spell.higher_level">At Higher Level.</div>
+            {{p}}
         </div>
+        <p class="spell-card__usable-classes spell-card__footer">{{classesText}}</p>
+        <p class="spell-card__source spell-card__footer">{{spell.page}}</p>
     </div>`,
     props: ['spell'],
     computed: {
@@ -101,7 +102,7 @@ var vm = new Vue({
                     }
                 }
             }
-            if(matches.length >= this.searchKeywords.length) {
+            if(matches.length >= this.searchKeywords.length && this.searchString.length >= 3) {
                 return true;
             }
         },
@@ -119,9 +120,7 @@ var vm = new Vue({
             return response.json();
         })
         .then(json => {
-            json.forEach(spell => { 
-                this.spellList.push(spell);
-            });
+            this.spellList = json;
             this.hasLoaded = true;
         })
     }

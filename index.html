@@ -107,58 +107,56 @@
                 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
                 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
             }
-            .SpellCard .name {
+            .spell-card__name {
                 font-size: 2.4rem;
                 color: rgba(0,0,0,0.9);
             }
-            .SpellCard .levelAndSchool {
+            .spell-card__level-school {
                 font-size: 1.6rem;
                 color: rgba(0,0,0,0.45);
                 margin-bottom: 1.2rem;
                 font-style: italic;
             }
-            .SpellCard .spellblock {
+            .spell-card__spellblock {
                 font-size: 1.8rem;
                 color: rgba(0,0,0,0.77);
                 line-height: 1.8rem;
             }
-            .SpellCard .spellblock strong {
+            .spell-card__spellblock strong {
                 padding-left: 0.5rem;
                 color: rgba(0,0,0,0.45);
                 font-size: 1.2rem;
                 font-weight: 500;
             }
-            .SpellCard .description {
+            .spell-card__description {
                 font-size: 1.4rem;
                 color: rgba(0,0,0,0.77);
                 text-align: justify;
                 text-justify: distribute;
                 padding-top: 0.8rem;
+                display: inline-block;
             }
             .SpellCard .description p {
                 padding-bottom: 0.5rem;
             }
-            .SpellCard .footer {
-                display: flex;
-                justify-content: space-between;
-                align-items: flex-end;
-                font-size: 1.0rem;
+            .spell-card__footer {
                 padding-top: 2.0em;
+                font-size: 1.0rem;
                 color: rgba(0, 0, 0, 0.7);
             }
-            .SpellCard .footer .classes {
+            .spell-card__usable-classes {
                 font-style: italic;
                 width: 60%;
                 color: rgba(0,0,0,0.45);
-                font-size: inherit;
+                float: left;
             }
-            .SpellCard .footer .source {
+            .spell-card__source {
                 text-transform: uppercase;
                 text-align: right;
-                font-size: inherit;
                 
             }
-            .SpellCard .atHigherLevelLabel {
+            .spell-card__higher-level-label {
+                padding-top: 1.0rem;
                 font-style: italic;
                 display: inline-block;
                 padding-right: 0.6rem;
