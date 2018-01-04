@@ -49,11 +49,8 @@ import SpellCard from './components/SpellCard'
     mounted() {
       this.calculateColumns()
       window.addEventListener('resize', this.calculateColumns)
-      window.fetch('./static/SPELLS.json')
-      .then(response => {
-        return response.json();
-      }).then(json => {
-        json.forEach(spell => this.spellList.push(spell))
+      spellsPromise.then(json => {
+          json.forEach(spell => this.spellList.push(spell))
       })
     },
     beforeDestroy() {
