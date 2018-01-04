@@ -24,9 +24,12 @@
                 overflow-y: scroll;
             }
             #app {
-                column-width: 350px;
+                /* column-width: 350px;
                 column-fill: balance;
-                column-gap: 0px;
+                column-gap: 0px; */
+                display: flex;
+                flex-flow: column;
+                align-items: center;
             }
             .loadingspinner {
                 display: inline-block;
@@ -52,7 +55,7 @@
             }
             .searchbar {
                 position: relative;
-                display: inline-block;
+                /* display: inline-block; */
                 margin-top: 3px;
                 margin-bottom: 10px;
                 background-color: #fff;
@@ -61,7 +64,7 @@
                 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
                 width: 350px;
                 border-radius: 3px;
-                break-inside: avoid-column;
+                /* break-inside: avoid-column; */
             }
             .searchbar input {
                 position: relative;
@@ -198,14 +201,12 @@
                 </svg>
               </div>
             </div>
-            <div>
                 <spell-card
                     class="spell"
                     v-for="spell of spellList" :key="spell.name"
                     v-show="spell.isVisible"
                     :spell="spell"
                 />
-            </div>
         </div>
         <script>
             function resizeApp() {
@@ -217,7 +218,7 @@
             }
 
             var SPELLS = window.fetch('./assets/SPELLS.json')
-            resizeApp();
+            // resizeApp();
             window.addEventListener('resize', resizeApp);
         </script>
         <script src="./js/app.js"></script>

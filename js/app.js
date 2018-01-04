@@ -84,7 +84,7 @@ var vm = new Vue({
         searchKeywords() {
             let searchKeywords = this.searchString.toLowerCase().split(' ').filter(s => s !== '');
             return searchKeywords;
-        },
+        }
     },
     methods: {
         handleInput(e) {
@@ -108,7 +108,7 @@ var vm = new Vue({
         filterSpellList() {
             for(const i of this.spellList.keys()) {
                 const isMatch = this.isMatch(this.spellList[i]);
-                if(isMatch !== this.spellList[i].isVisible) { 
+                if(isMatch !== this.spellList[i].isVisible) {
                     Vue.set(this.spellList[i], 'isVisible', isMatch);
                 }
             }
