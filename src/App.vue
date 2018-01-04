@@ -25,13 +25,14 @@
 import Vue from 'vue'
 import Searchbar from './components/Searchbar'
 import SpellCard from './components/SpellCard'
+import SPELLS from './assets/SPELLS.json'
   export default {
     name: 'App',
     components: {Searchbar, SpellCard},
     data() {
       return {
         searchString: '',
-        spellList: [],
+        spellList: SPELLS,
         numberOfCols: 1,
         visibleSpellCount: 0,
       }
@@ -49,12 +50,12 @@ import SpellCard from './components/SpellCard'
     mounted() {
       this.calculateColumns()
       window.addEventListener('resize', this.calculateColumns)
-      window.fetch('./static/SPELLS.json')
-      .then(response => {
-        return response.json();
-      }).then(json => {
-        json.forEach(spell => this.spellList.push(spell))
-      })
+      // window.fetch('./static/SPELLS.json')
+      // .then(response => {
+      //   return response.json();
+      // }).then(json => {
+      //   json.forEach(spell => this.spellList.push(spell))
+      // })
     },
     beforeDestroy() {
       window.removeEventListener('resize', this.calculateColumns)
