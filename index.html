@@ -172,6 +172,9 @@
                 }
             }
         </style>
+        <script>
+            var SPELLS = window.fetch('./assets/SPELLS.json')
+        </script>
         <script src="./js/vue.min.js"></script>
     </head>
     <body>        
@@ -213,8 +216,6 @@
                 app.style.columnCount = cols;
                 app.style.width = cols * (356 + 10) + 'px';
             }
-
-            var SPELLS = window.fetch('./assets/SPELLS.json')
             resizeApp();
             window.addEventListener('resize', resizeApp);
         </script>
